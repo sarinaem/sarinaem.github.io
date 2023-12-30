@@ -1,0 +1,275 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(fonts/eot/IRANSansWeb_Black.eot);
+  src: url(fonts/eot/IRANSansWeb_Black.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb_Black.woff2) format('woff2') , url(fonts/woff/IRANSansWeb_Black.woff) format('woff') , url(fonts/ttf/IRANSansWeb_Black.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(fonts/eot/IRANSansWeb_Bold.eot);
+  src: url(fonts/eot/IRANSansWeb_Bold.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb_Bold.woff2) format('woff2') , url(fonts/woff/IRANSansWeb_Bold.woff) format('woff') , url(fonts/ttf/IRANSansWeb_Bold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/eot/IRANSansWeb_Medium.eot);
+  src: url(fonts/eot/IRANSansWeb_Medium.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb_Medium.woff2) format('woff2') , url(fonts/woff/IRANSansWeb_Medium.woff) format('woff') , url(fonts/ttf/IRANSansWeb_Medium.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/eot/IRANSansWeb_Light.eot);
+  src: url(fonts/eot/IRANSansWeb_Light.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb_Light.woff2) format('woff2') , url(fonts/woff/IRANSansWeb_Light.woff) format('woff') , url(fonts/ttf/IRANSansWeb_Light.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/eot/IRANSansWeb_UltraLight.eot);
+  src: url(fonts/eot/IRANSansWeb_UltraLight.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb_UltraLight.woff2) format('woff2') , url(fonts/woff/IRANSansWeb_UltraLight.woff) format('woff') , url(fonts/ttf/IRANSansWeb_UltraLight.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/eot/IRANSansWeb.eot);
+  src: url(fonts/eot/IRANSansWeb.eot?#iefix) format('embedded-opentype') , url(fonts/woff2/IRANSansWeb.woff2) format('woff2') , url(fonts/woff/IRANSansWeb.woff) format('woff') , url(fonts/ttf/IRANSansWeb.ttf) format('truetype')
+}
+
+* , ::before , ::after{
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    font-family: IRANSans;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+.nav-menu-center {
+  list-style: none;
+
+}
+
+
+
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .nav-menu-right {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 100% !important;
+    
+  }
+  .header-center {
+    margin-top: 23px;
+  }
+
+  .my-logo {
+    display: flex;
+    flex-direction: row;
+    color: #001858;
+    position: relative;
+    right: 40%;
+    bottom: 38px;
+    font-size: 36px;
+    font-weight: 600;
+    
+  }
+
+  .small-logo {
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+
+
+  }
+
+
+
+  h1, h2 {
+    margin: 0;
+  } 
+
+.contact-icon {
+  width: 50%;
+}
+.contact-text{
+  width: 50%;
+}
+  
+  section {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.project-title {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.box-line {
+  border: 1px solid #FDC435;
+  width: 80px;
+
+}
+
+.form-model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 2px; 
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.form-model input {
+  margin-top: 20px;
+  border: 1px solid #a2a2a2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  padding: 2px;
+  margin: 1px;
+  
+}
+.form-model label {
+  position: relative;
+  left: 7px;
+  bottom: 4px;
+}
+
+
+#message {
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+
+
+.button-form {
+  width: 95px;
+  height: 35px;
+  background: #FDC435;
+  color: #fff;
+  border-radius: 8px;
+  position: relative;
+  left: 39%;
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start; 
+  border: 1px solid #fff;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  font-style:oblique;
+
+}
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .contact-text {
+    position: relative;
+    bottom: 26px;
+    left: 23px;
+}
+
+ul.nav-menu-right {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  cursor:all-scroll;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: IRANSans;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+span{
+  color: black;
+}
+
+.text{
+  position: relative;
+  color: #FDC435;
+}
+
+.text::before {
+  content: "";
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 70%;
+  width: 30%;
+  background-color: #111;
+  border-left: 2px solid #FDC435;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+
+  40% {left: calc(100% - 50% /2 );}
+  60%  {left: calc(100% + 4px);}
+  100% {left: 0px;}
+}
